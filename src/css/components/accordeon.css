@@ -1,3 +1,23 @@
 /**
 * Accordeon
 */
+.accordeon {
+    display: flex;
+}
+
+details {
+    position: relative;
+
+    >.contenu {
+        position: relative;
+        padding-left: 130px;
+        top: -75px;
+    }
+}
+
+details[open] {
+}
+
+summary {
+    position: relative;
+}
